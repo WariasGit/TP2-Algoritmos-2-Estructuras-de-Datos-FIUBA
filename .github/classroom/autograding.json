@@ -22,7 +22,7 @@
     },
     {
       "name": "Chequeo de Memoria",
-      "setup": "sudo apt-get install -y valgrind && ./build.sh",
+      "setup": "sudo apt-get update && sudo apt-get install -y valgrind && ./build.sh",
       "run": "./valgrind.sh",
       "input": null,
       "output": null,
