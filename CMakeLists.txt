@@ -12,10 +12,11 @@ include_directories(include)
 #   "directorio/archivo.cpp"
 set(ARCHIVOS_FUENTE
         "include/vector.hpp"
-        "src/gacha.cpp"
+	"src/gacha.cpp"
         "src/salto.cpp"
         "src/generador_salto.cpp"
-        "src/recompensa.cpp")
+        "src/recompensa.cpp"
+        )
 
 add_executable(AyED_TP2_1c2024
         ${ARCHIVOS_FUENTE}
